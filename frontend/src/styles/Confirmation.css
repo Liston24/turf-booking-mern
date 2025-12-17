@@ -1,0 +1,82 @@
+/* Confirmation page specific styles */
+.background-container {
+  min-height: 100vh;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.confirmation-header {
+  background-color: rgba(16, 104, 30, 0.7);
+  color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.confirmation-header h1 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.table-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.table-dark {
+  background-color: transparent !important;
+  color: #fff;
+}
+
+.table-dark thead {
+  background-color: rgba(16, 104, 30, 0.9);
+}
+
+.table-dark tbody tr {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.table-dark tbody tr:hover {
+  background-color: rgba(16, 104, 30, 0.5);
+}
+
+.table-dark td,
+.table-dark th {
+  border-color: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  vertical-align: middle;
+}
+
+.badge {
+  padding: 8px 15px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.alert {
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .confirmation-header {
+    padding: 20px;
+    margin: 20px 10px;
+  }
+
+  .table-container {
+    padding: 10px;
+    overflow-x: auto;
+  }
+
+  .table {
+    font-size: 0.85rem;
+  }
+
+  .table td,
+  .table th {
+    padding: 10px 8px;
+  }
+}

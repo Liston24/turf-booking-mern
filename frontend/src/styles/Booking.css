@@ -1,0 +1,80 @@
+/* Booking page specific styles */
+.background-container {
+  min-height: 100vh;
+  color: #fff;
+}
+
+.header-design {
+  background-color: rgba(16, 104, 30, 0.7);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  margin-top: 20px;
+}
+
+.header-design h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.form-container {
+  border: 1px solid rgba(204, 204, 204, 0.3);
+  border-radius: 0 0 10px 10px;
+  padding: 30px;
+  background-color: rgba(16, 104, 30, 0.7);
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.form-container .form-label {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-container .form-control {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  color: #000;
+}
+
+.form-container .form-control:focus {
+  background-color: #fff;
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.form-container .form-check-label {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.form-container .form-check-input {
+  cursor: pointer;
+}
+
+.form-container .btn-primary {
+  background-color: #28a745;
+  border-color: #28a745;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+
+.form-container .btn-primary:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.alert {
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .form-container {
+    padding: 20px;
+  }
+
+  .header-design {
+    padding: 15px;
+  }
+}
