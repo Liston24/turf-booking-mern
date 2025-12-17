@@ -1,30 +1,4 @@
-# Turf Booking MERN - Project Overview
 
-## 📋 Project Information
-
-**Original Project:** Static HTML/PHP Turf Booking Website  
-**New Version:** Full-stack MERN Application  
-**Conversion Date:** 2024  
-**Status:** ✅ Complete
-
-## 🎯 Project Goals
-
-Convert a traditional static website with PHP backend into a modern, scalable MERN stack application while maintaining all original functionality and improving user experience.
-
-## 📊 Comparison Table
-
-| Feature         | Original       | MERN Version               |
-| --------------- | -------------- | -------------------------- |
-| Frontend        | Static HTML    | React (SPA)                |
-| Backend         | PHP            | Express.js                 |
-| Database        | MySQL          | MongoDB                    |
-| Routing         | Server-side    | Client-side (React Router) |
-| API             | Form POST      | RESTful API                |
-| State           | Page reload    | React State                |
-| Dependencies    | CDN            | npm packages               |
-| Development     | Manual refresh | Hot reload                 |
-| Scalability     | Limited        | High                       |
-| Maintainability | Moderate       | Excellent                  |
 
 ## 🏗️ Architecture
 
